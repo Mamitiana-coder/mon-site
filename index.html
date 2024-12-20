@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./font/font/css/all.css">
+    <title>Mon portfolio</title>
+</head>
+<body>
+    
+    <a href="javascript:void(0);" class="barre" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+    <div class="content" >
+        <header id="1er" style="width: 300PX; margin-left: 1050px;">
+            <nav>
+                <div id="menu">
+                    <img src="images/Mamitiana.jpg" alt="profil" class="logo">
+                    <p>RANDRIAMIHAJA Mamitiana Herizo</p>
+                    <ul>
+                        <div class="acc"><li><i class="fa fa-home"></i><a href="#accueil"> Home</a></li></div>
+                        <div class="acc"><li><i class="fas fa-address-book"></i><a href="#propos"> About</a></li></div>
+                        <div class="acc"><li><i class="fas fa-chart-line"></i><a href="#cmpt"> Skills</a></li></div>
+                        <div class="acc"><li><i class="fas fa-comment"></i><a href="#cntct"> Contact</a></li></div>
+                    </ul>
+                
+                    
+                </div>
+            </nav>
+            <div class="icone" style="padding: 10px; margin-left: 10px; font-family: cursive;">
+                <p>Number : +034 04 736 88</p>
+
+            </div>
+            
+        </header>
+        <div style="margin-left: px;" class="right">
+            <h1> Welcome to my portfolio</h1>
+            <hr>
+        
+            <div class="slideshow-container" id="accueil">
+                <div class="mySlides fade">
+                 <img src="images/Screenshot_20240117-084605_Instagram.jpg" style="width:100%" class="slide">
+             </div>
+  
+            <div class="mySlides fade">
+                <img src="images/ordi_code.jpg" style="width:100%" class="slide">
+            </div>
+  
+            <div class="mySlides fade">
+                <img src="images/ordi2.jpg" style="width:100%" class="slide">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <hr>
+        <div id="propos">
+            <h2> My journey :</h2>
+            <p class="pdesc"> Throughout my journey in web development, I have explored the fascinating intricacies of code to bring ideas to life on the World Wide Web. From responsive design to server-side programming, every step has been an intellectual adventure. Challenging tasks have been opportunities to learn and grow, and each line of code has become a part of my digital narrative.</p>
+            <div class="flex-container" >
+                <div>
+                    
+                    <i class="fas fa-user-plus" id="prv"></i>
+                    <p>A person of integrity</p>
+                </div>
+                <div>
+                    <i class="fas fa-users" id="prv"></i>
+                    <p>A sociable person </p>
+                </div>
+                <div>
+                    <i class="fas fa-check" id="prv"></i>
+                    <p>Hardworking</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="cmpt">
+            <h2>My skill levels as a developer  : </h2>
+            <div class="cols">
+                <div>
+                    <h3>On the front-end : </h3>
+                    <div class="comp">
+                        <h6>HTML : </h6>
+                        <progress id="file" max="100" value="90">90%</progress>
+                    </div>
+                    <div class="comp">
+                        <h6>CSS : </h6>
+                        <progress id="file" max="100" value="75">75%</progress>
+                    </div>
+                    <div class="comp">
+                        <h6>Javascript : </h6>
+                        <progress id="file" max="100" value="40">40%</progress>
+                    </div>
+                </div>
+                <div>
+                    <h3>On the back-end : </h3>
+                    <div class="comp">
+                        <h6>Langage C : </h6>
+                        <progress id="file" max="100" value="60">60%</progress>
+                    </div>
+                    <div class="comp">
+                        <h6>Python : </h6>
+                        <progress id="file" max="100" value="60">60%</progress>
+                    </div>
+                    <div class="comp">
+                        <h6>PHP : </h6>
+                        <progress id="file" max="100" value="40">50%</progress>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        
+        <div id="cntct">
+            <h2>Send me a message :</h2>
+            
+            <form>
+                <div style="font-family: cursive;">
+                    <label>Name : </label><br>
+                    <input type="text"><br><br>
+                    <label>First name : </label><br>
+                    <input type="text"><br><br>
+                
+                <div class="" style="font-family: cursive; ">
+                    <label>Messages : </label><br><br>
+                    <textarea rows="5" cols="30" id="mess" style="width: 80%;"></textarea>
+                <div style="margin-left: 100px; padding-top: 90px; ;">
+                    <h1>You can follow me on :</h1>
+                    <h3 class="text-light" style="margin-left: 50px;"></h3>
+                 
+                </div>
+                </div>
+
+
+            </nav>
+     
+                
+            </form>
+ 
+        </div>
+        </div>
+        
+    </div>
+    <div class="icone" style="margin-left: 500px; font-size: 30px; margin-bottom: 10px;">
+        <a href="https://www.facebook.com/micky.felicity/"><i class="fab fa-facebook" style="color: black; ;"></i></a>
+        <a href="https://www.instagram.com/mklf.7/"><i class="fab fa-instagram" style="color: black;"></i></a>
+        <i class="fab fa-tiktok"></i>
+        <i class="fab fa-github"></i>
+    </div>
+    
+   
+<script src="./app.js"></script>  
+
+</body>
+</html>
